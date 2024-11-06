@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?", "Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "quiz_inquiry",
+      "patterns": ["What is my score?", "Did I pass?", "Can I get my quiz results?", "How did I do on the quiz?"],
+      "responses": ["Let me check your score.", "I'll pull up your quiz results now.", "One moment while I retrieve your quiz results."]
+    },
+    {
+      "tag": "incorrect_answer_explanation",
+      "patterns": ["Why is MV Service the correct answer?", "Explain why I got this wrong", "Why did I miss this?", "Why is that the answer?"],
+      "responses": [
+        "MV Service is responsible for visa processing and sponsorship. For instance, if someone needs visa assistance, they should approach the MV Service department.",
+        "The MV Service handles all aspects of visa sponsorship and processing at Maids.cc. It's the department to go to for any visa-related needs."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": ["Which items do you have?", "What kinds of items are there?", "What do you sell?"],
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Can I pay with Paypal?", "Are you cash only?"],
+      "responses": ["We accept VISA, Mastercard and Paypal", "We accept most major credit cards, and Paypal"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["How long does delivery take?", "How long does shipping take?", "When do I get my delivery?"],
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "explain_wrong_answer",
+      "patterns": [
+        "Why is this answer incorrect?", 
+        "Explain the correct answer to me", 
+        "Why did I get this wrong?", 
+        "Can you explain the answer?"
+      ],
+      "responses": [
+        "Let me explain that. The correct answer to this question is [answer], because...",
+        "Here’s a bit more detail: The correct answer is [answer] because..."
+      ]
+    },
+    {
+      "tag": "quiz_ready",
+      "patterns": [
+        "Start quiz", 
+        "I'm ready for the quiz", 
+        "Can I take the quiz now?", 
+        "Begin the quiz"
+      ],
+      "responses": [
+        "Great! Let's get started with your quiz. Please answer the following questions.",
+        "Let's begin! I'll start asking you questions now."
+      ]
+    },
+    {
+      "tag": "confirmation",
+      "patterns": [
+        "Yes", 
+        "No", 
+        "I agree", 
+        "I don't agree"
+      ],
+      "responses": [
+        "Thank you for confirming!",
+        "Got it. Let's proceed based on your answer."
+      ]
+    }
+  ]
+}
